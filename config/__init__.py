@@ -1,0 +1,21 @@
+"""Configuration module for Tiki crawler."""
+
+from .settings import (
+    TIKI_SITEMAP_INDEX,
+    TIKI_CATEGORY_API,
+    TIKI_PRODUCT_API,
+    HEADERS,
+    PROXIES,
+    NO_PROXY,
+    DEFAULT_WORKERS,
+    CATEGORY_API_DELAY,
+    PRODUCT_API_DELAY,
+    REQUEST_TIMEOUT,
+    CHECKPOINT_INTERVAL,
+    MAX_WORKERS,
+    REQUEST_DELAY,
+    BATCH_SIZE,
+    OUTPUT_CSV,
+    ERROR_LOG,
+    CHECKPOINT_FILE,
+)
